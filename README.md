@@ -1,0 +1,2 @@
+# FraudGraph-AI
+hackathon project
