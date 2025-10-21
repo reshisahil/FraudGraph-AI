@@ -1,0 +1,34 @@
+/* styles.css */
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background: #f6f8fa;
+}
+#wrapper { min-height: 100vh; }
+
+#sidebar-wrapper {
+  width: 220px;
+}
+.sidebar-heading {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.list-group-item.active {
+  background: linear-gradient(90deg,#0d6efd,#6610f2);
+  color: white;
+  border: none;
+}
+
+.stat-card { min-height: 120px; }
+
+.card { border-radius: 10px; box-shadow: 0 1px 6px rgba(0,0,0,0.06); }
+.table td, .table th { vertical-align: middle; }
+
+.badge-risk-low { background: #d1f0d1; color: #0f7a0f; padding: 0.35em 0.5em; border-radius: 0.35rem; }
+.badge-risk-med { background: #fff3cd; color: #856404; padding: 0.35em 0.5em; border-radius: 0.35rem; }
+.badge-risk-high { background: #f8d7da; color: #842029; padding: 0.35em 0.5em; border-radius: 0.35rem; }
+
+/* responsive tweak */
+@media (max-width: 768px) {
+  #sidebar-wrapper { display: none; }
+}
